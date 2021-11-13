@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  margin: 0 auto;
+  height: 569px;
+  max-width: 879px;
+  background-image: url(./imagem/Background.png);
+}
+nav {
+  padding: 0 15px;
+  align-items: center;
+  height: 77px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 879px;
+  justify-content: space-between;
+}
+nav ul {
+  gap: 5px;
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+}
+nav ul li a {
+  padding: 13px;
+  font-size: 16px;
+  color: #50616e;
+  font-weight: 400;
+}
+nav ul li a:hover {
+  background: #273a4515;
+  border-radius: 6px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #273a45;
+}
+/* Sobre */
+
+.sobre {
+  margin: 0 auto;
+  max-width: 879px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  padding: 15px 0px;
+  border-bottom: rgb(129, 129, 129, 0.222) 1px solid;
+}
+.sobre__text {
+  padding: 0px 0px 0px 15px;
+}
+.sobre__text h1 {
+  padding: 0px 0px 25px 0px;
+  color: #273a45;
+  font-size: 47px;
+}
+.sobre__text p {
+  font-size: 18px;
+  color: #111826;
+  line-height: 1.4em;
+}
+/* Projetos */
+.projetos {
+  margin: 0 auto;
+  max-width: 879px;
+  text-align: center;
+}
+.projetos h1 {
+  font-size: 47px;
+  color: #273a45;
+  /* padding: 0px 0px 15px 0px; */
+}
+.projetos__imagem {
+  padding: 15px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projetos__imagem img {
+  display: block;
+  max-height: 243px;
+  width: auto;
+}
+.projeto__imagem__grupo {
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  padding: 0px 0px 25px 0px;
+}
+/* Redes Social */
+footer {
+  height: 110px;
+  max-width: 879px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  padding: 5px;
+}
+.redes img {
+  padding: 7.5px;
+}
