@@ -6,3 +6,5 @@ Link Do Projeto No Figma
 Site Hospedado No Proprio Git [Aqui](https://kaikselhorst.github.io/Web-Site-Html-and-Css/)
 
 Site Feito Totalmente Em Html e Css
+
+99% responsivo 
